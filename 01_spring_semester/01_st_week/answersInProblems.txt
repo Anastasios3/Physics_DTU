@@ -21,3 +21,30 @@ That happens at E, so second question: option B.
 
 #Problem_2
 
+With equal time intervals between dots, the distance between successive dots is proportional 
+to the particle’s average velocity during that interval Δx∝vΔt with constant Δt.
+Increasing spacing ⇒ speeding up; constant spacing ⇒ constant speed; decreasing spacing ⇒ slowing down.
+Apply to the dot pattern
+From left to right:
+(Left) The particle starts from rest, and the first few spacings 
+gradually increase → speed increasing (positive acceleration).
+(Middle) Several spacings are roughly the same → speed approximately constant (zero acceleration).
+(Right) Spacings become smaller → the particle is slowing down while still moving right (negative acceleration).
+This time history of speeding up, then constant speed, then slowing down matches graph A: velocity rises linearly 
+from zero, is constant for a while, then decreases linearly back toward zero. 
+Graph B would give a smooth speed-up then smooth slow-down with no flat constant-velocity segment, 
+and graph C never has a slowing-down phase.
+Therefore, the graph that fits the motion is A.
+
+#Problem_3
+
+On a position–time graph, the instantaneous speed is the slope of the curve; a decreasing slope means the 
+speed is decreasing. Between A→C the slope is getting steeper with time, so the car is speeding up, 
+not slowing down. Around D and E the curve is still rising (car moving forward) but the slope is 
+getting smaller and tends toward zero, which means the forward velocity is decreasing, 
+i.e. the car is slowing down there.
+
+The car is slowing down at points D and E.
+
+#Problem_4
+
