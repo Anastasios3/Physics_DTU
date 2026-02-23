@@ -175,3 +175,5 @@ Crash check using relative motion:
 
 Therefore the cars never reach each other and all crash answers are wrong,
 while B (61.4 m apart) and H (2.78 s to stand still) are correct.
+
+#Problem_6
