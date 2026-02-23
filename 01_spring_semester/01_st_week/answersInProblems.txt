@@ -48,3 +48,130 @@ The car is slowing down at points D and E.
 
 #Problem_4
 
+Problem: Two cars braking head-on
+
+Data:
+- Maximum braking acceleration magnitude: a = 8 m/s^2 (each car, opposite to its motion)
+- Speed of each car: v0 = 88 km/h = 24.44 m/s
+- Initial distance between cars: L = 85 m
+
+Key kinematic formulas (constant acceleration):
+1) v = v0 + a t
+2) v^2 = v0^2 + 2 a Δx
+
+--------------------------------------------------
+a) Do the cars crash?
+
+Stopping distance for one car:
+
+0 = v0^2 + 2 a Δx
+=> Δx = v0^2 / (2 |a|)
+   = 24.44^2 / (2 * 8)
+   ≈ 37.3 m
+
+Both cars together need distance:
+2 Δx ≈ 2 * 37.3 m ≈ 74.6 m
+
+Since 74.6 m < 85 m, they stop before meeting.
+Conclusion for (a): No, the cars do not crash.
+
+--------------------------------------------------
+Stopping time (used below):
+
+0 = v0 + a t_stop
+=> t_stop = v0 / |a|
+          = 24.44 / 8
+          ≈ 3.06 s
+
+--------------------------------------------------
+b) Relative velocity in a crash
+
+There is no crash, so their relative velocity at impact is not defined (they never meet).
+
+--------------------------------------------------
+c) Distance between the cars after stopping
+
+Remaining separation:
+
+d_final = L − 2 Δx
+        = 85 m − 2 * 37.3 m
+        ≈ 85 m − 74.6 m
+        ≈ 10.4 m
+
+So after stopping they are about 10 m apart.
+
+--------------------------------------------------
+d) Position as function of time (for sketch)
+
+Choose x-axis along the road.
+Let x = 0 be the initial position of the left car.
+Positive x points to the right.
+
+Car 1 (left car):
+- Initial position: x1(0) = 0
+- Initial velocity: v0 (to the right)
+- Acceleration: −a  (since it brakes)
+
+For 0 ≤ t ≤ t_stop:
+x1(t) = v0 t − (1/2) a t^2
+
+After t_stop:
+x1(t) = x1(t_stop) = Δx ≈ 37.3 m (constant)
+
+Car 2 (right car):
+- Initial position: x2(0) = 85 m
+- Initial velocity: −v0 (to the left)
+- Acceleration: +a  (opposite its motion)
+
+For 0 ≤ t ≤ t_stop:
+x2(t) = 85 m − v0 t + (1/2) a t^2
+
+After t_stop:
+x2(t) = x2(t_stop) = 85 m − Δx ≈ 47.7 m (constant)
+
+Check at t = t_stop ≈ 3.06 s:
+- x1 ≈ 37.3 m
+- x2 ≈ 47.7 m
+Gap ≈ 10.4 m (same as in part c).
+
+To sketch: 
+--- ( 01_spring_semester/01_st_week/Problem4Graph.png )
+
+- Plot x1(t) and x2(t) versus t on the same axes.
+- Both start as concave-down parabolas moving toward each other.
+- Slopes go to zero at t ≈ 3.06 s.
+- After that time both curves are horizontal, separated by ≈ 10 m.
+
+#Problem_5
+
+Correct multiple‑choice answers: B and H.
+
+Result:
+- The cars do NOT crash.
+- They are both standing still after 2.78 s.
+- When they have stopped, they are 61.4 m apart.
+
+Key calculations (rounded):
+Initial speed of each car: v0 = 50.0 km/h = 13.9 m/s.
+Deceleration of each car: a = 5.00 m/s^2.
+
+Time for one car to stop:
+  t_stop = v0 / a = 13.9 / 5.00 = 2.78 s.
+
+Stopping distance of one car:
+  s = v0^2 / (2 a) = 13.9^2 / (2 * 5.00) = 19.3 m.
+
+Total distance closed by both cars before they stop:
+  s_total = 2 * 19.3 m = 38.6 m.
+
+Initial separation: 100 m.
+Separation when both have stopped:
+  d_final = 100 m - 38.6 m = 61.4 m.
+
+Crash check using relative motion:
+  relative speed v_rel = 2 * 13.9 = 27.8 m/s.
+  relative deceleration a_rel = 2 * 5.00 = 10.0 m/s^2.
+  relative stopping distance s_rel = v_rel^2 / (2 a_rel) = 38.6 m < 100 m.
+
+Therefore the cars never reach each other and all crash answers are wrong,
+while B (61.4 m apart) and H (2.78 s to stand still) are correct.
