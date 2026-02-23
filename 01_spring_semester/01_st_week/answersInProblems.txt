@@ -1,0 +1,23 @@
+#Problem_1
+
+1. Wolf not moving:
+Velocity is zero where the graph crosses the time axis, 
+i.e. at points A, E, and H → first question: option B.
+
+2. Wolf not accelerating:
+Acceleration is the slope of the velocity–time graph, 
+so it is zero where the graph has a horizontal tangent (local maximum or minimum), 
+i.e. at C and F → second question: option C.
+
+3. Constant-acceleration intervals:
+Acceleration is the slope of the velocity–time graph, so it is (approximately) constant 
+where the graph is nearly a straight line. 
+That occurs in segments D–E and G–H, so first question: option C.
+
+4. Time of greatest distance from start:
+Displacement is maximal when velocity crosses zero going from positive to negative, 
+since position increases while v>0 and then decreases when v<0. 
+That happens at E, so second question: option B.
+
+#Problem_2
+
